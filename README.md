@@ -2,6 +2,8 @@
 
 ## Making the develop experience smooth
 
+Type hint your code. Structure your code properly. If you need documentation, add `mkdocs` to the mix.
+
 Use makefiles. Or if you want something more modern, theres just... except its not part of the posix standard so you'd often need to install just first, unlike make. For python projects, I've never found you need more than a makefile.
 
 To install this repo, simply run `make install`
