@@ -1,0 +1,17 @@
+[project]
+name = "template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.1",
+    "ruff>=0.9.2",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"

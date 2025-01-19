@@ -1,0 +1,27 @@
+.git
+.gitattributes
+.gitignore
+.flake8
+.pre-commit-config.yaml
+# macOS (optional)
+.DS_Store
+
+# Visual Studio Code (optional)
+.vscode
+
+# Python files and caching
+**/.pytest_cache
+**/__pycache__
+**/.DS_Store
+**/.dockerignore
+**/*.egg-info
+**/.mypy_cache
+**/.ruff_cache
+**/.venv
+**/.idea
+
+# Dont copy tests across
+test
+
+# Poetry stuff
+poetry.toml
