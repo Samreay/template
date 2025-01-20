@@ -49,3 +49,4 @@ Put in the contribution guidelines and GitHub actions to automate as much as pos
 3. Data crunching: `polars` > `pandas`
 4. Analytcis / OLAP: `duckdb`
 5. Orchestration: `prefect` / `luigi` / `dagster` / others
+6. Dataclasses / env settings: `pydantic`

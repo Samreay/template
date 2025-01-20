@@ -9,4 +9,4 @@ precommit:
 	uv run pre-commit run --all-files
 
 docker:
-	docker build -t a_package .devcontainer
+	docker build -t a_package
