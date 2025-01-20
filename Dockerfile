@@ -6,4 +6,4 @@ WORKDIR /app
 RUN uv sync --frozen
 
 # If you had a fastapi app or something you'd then be able to do something like
-# CMD ["uv", "run", "app:app"]
+CMD ["uv", "run", "python"]
